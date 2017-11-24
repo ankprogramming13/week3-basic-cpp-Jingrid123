@@ -12,7 +12,7 @@ int main() {
   	cout << "Enter Third Number: ";
   	cin >> num3;
   	sum = num1 + num2 + num3;
-  	avg = sum / 3;
+  	avg = (float)sum / 3;
   	cout << "Average of the Three number is: ";
   	cout << avg;
   return 0;
